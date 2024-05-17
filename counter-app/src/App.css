@@ -1,0 +1,116 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.App{
+  width: 100%;
+  height: 100%;
+}
+
+.ring {
+  width: 300px;
+  height: 300px;
+  border: 10px solid #0ed148;
+  border-radius: 50%;
+  border-top-color: transparent; 
+  border-bottom-color: transparent; 
+  position: relative; 
+  display: inline-block;
+}
+.eye {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  background-color: #fff; 
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
+}
+
+.eyeLeft {
+  width: 100px;
+  height: 50px;
+  border: 2px;
+  border-radius: 10%;
+  background-color: rgb(12, 9, 240); 
+  border-radius: 50%;
+ 
+  top: 0; 
+}
+.eyeRight {
+  width: 100px;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgb(12, 9, 240);
+}
+
+.burun{
+  width: 200px;
+  height: 100px;
+  margin-top: 100px;
+  margin-left: 60px;
+  text-align: center;
+  justify-content: center;
+}
+
+.burunusti{
+  width: 100%;
+  height: 40px;
+}
+
+.burunosti{
+  width: 100%;
+  height: 60px;
+}
+
+
+.ogiz{
+  margin-left: 5px;
+  min-width: 100px; /* Минимальная ширина кнопки */
+  height: 35px;
+  border-radius: 50px;
+  display: inline-block;
+  text-align: center;
+}
